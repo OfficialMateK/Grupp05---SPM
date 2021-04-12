@@ -3,13 +3,13 @@ Somnium
 
 Unity Version: 2020.3.3f1
 
-Förberedelse av en scen:
+        Förberedelse av en scen:
 	- Skapa ett scen
 	- Ta bort tidigt skapade kameran (Main Camera). Player prefab har en kamera kopplat till den.
 	- Om du vill ha ett dörr till nästa level, lägg till en DoorToNextLevel prefab och ändra i inspectorn till vilket level dörren ska leda.
 	(Mer info om hur man gör det hittar du nedanför)
 
-Prefabs:
+        Prefabs:
 	Player:
 	- Ändra Player Health: Player -> Player Health (Script) -> Health = int
 	- Ändra Bullet Damage: Player -> HeadPoint -> Camera -> Weapon Script -> Bullet Damage = int
